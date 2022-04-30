@@ -1,0 +1,14 @@
+footer {
+  background: #363633;
+  left: 0;
+  /* height: 5rem; */
+}
+
+footer h6 {
+  color: #ffec4f;
+}
+
+svg {
+  width: 2rem;
+  height: 2rem;
+}

@@ -1,0 +1,54 @@
+.c-modal-parent {
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  overflow: scroll;
+}
+
+.c-modal-background {
+  top: 0;
+  left: 0;
+  background: #252525e8;
+  z-index: -1;
+}
+
+.c-modal-header .close-btn {
+  line-height: normal;
+  font-size: 2rem;
+}
+
+.contact-text {
+  font-size: 1.1rem;
+  letter-spacing: 0;
+}
+
+.c-modal-content form label {
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.c-modal-contnt {
+  /* 22, 36 */
+}
+
+.btn-link {
+  color: #c9450c !important;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #7e300b !important;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .c-modal-content {
+    width: 36rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .c-modal-content {
+    width: 22rem;
+  }
+}

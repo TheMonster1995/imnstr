@@ -1,0 +1,72 @@
+* {
+  color: #363633;
+}
+
+section.landing {
+  min-height: 80vh;
+  padding-top: 20vh;
+}
+
+section.landing h5.title {
+  font-size: 1.6rem;
+}
+
+section.landing h5 {
+  line-height: 1.6;
+}
+
+.btn-primary {
+  background-color: #504c2b !important;
+  border-color: #504c2b !important;
+}
+
+section.contact {
+  min-height: 70vh;
+}
+
+label {
+  letter-spacing: .2rem;
+  font-size: 1.1rem;
+}
+
+a.instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a.linkedin {
+  background:linear-gradient(45deg, #0077b5, #000000, #313335, #86888a, #caccce, #00a0dc);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a.github {
+  background:linear-gradient(45deg, #4078c0, #6e5494, #bd2c00, #c9510c, #6cc644, #fafafa);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.landing-question {
+  font-size: 1.1rem;
+  width: fit-content;
+}
+
+.contact-title {
+  font-size: 1.6rem;
+}
+
+.contact-text {
+  font-size: 1.4rem;
+}
+
+.contact-link {
+  text-decoration: none;
+  width: fit-content;
+}
